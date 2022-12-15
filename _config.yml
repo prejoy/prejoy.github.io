@@ -53,8 +53,11 @@ google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+baidu_statistics:
+  id: 7b6c37467e683123653963e159b9b4c8                 # fill in your Baidu tongji ID
+
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-0PY51BZGS5                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine

@@ -96,4 +96,8 @@
     {% include google-analytics.html %}
   {% endif %}
 
+  <!-- Baidu Statistics -->
+  {% if site.baidu_statistics.id != empty and site.baidu_statistics.id %}
+    {% include baidu-statistics.html %}
+  {% endif %}
 {% endif %}
