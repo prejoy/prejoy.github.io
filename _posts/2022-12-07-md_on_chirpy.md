@@ -2,6 +2,7 @@
 title: 'markdown on chirpy'
 categories: [markdown, grammar]
 tags: [markdown, test]     # TAG names should always be lowercase
+published: true
 ---
 
 
@@ -31,3 +32,5 @@ There are several types of prompts: tip, info, warning, and danger.
 ---
 
 my new addiotn..
+
+to test change of **author info** and **default author**
