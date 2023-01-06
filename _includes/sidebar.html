@@ -69,6 +69,10 @@
           https://github.com/{{ site.github.username }}
         {%- elsif entry.type == 'twitter' -%}
           https://twitter.com/{{ site.twitter.username }}
+        {%- elsif entry.type == 'zhihu' -%}
+          https://www.zhihu.com/people/{{ site.zhihu.pid }}
+        {%- elsif entry.type == 'qq' -%}
+          {{ site.qq.sharelink }}
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')

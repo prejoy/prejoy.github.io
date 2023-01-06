@@ -3,9 +3,19 @@
 -
   type: github
   icon: 'fab fa-github'
+# -
+#   type: twitter
+#   icon: 'fab fa-twitter'
+# Prejoy's addition ,test for zhihu weixin qq
+# -
+#   type: weixin
+#   icon: 'fab fa-weixin'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: qq
+  icon: 'fab fa-qq'
+-
+  type: zhihu
+  icon: 'fab fa-zhihu'
 -
   type: email
   icon: 'fas fa-envelope'

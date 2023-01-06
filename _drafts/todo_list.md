@@ -27,3 +27,8 @@ long time,
 1. 添加PCIe相关posts
 2. 添加sidebar-title 支持，可以让sidebar-title 不同于title
 3. 接下来准备添加和修改，share，contact的相关图标
+
+bing: 网页分享qq个人
+qq,微信的contact可以使用 个人名片的二维码，放上去即可。
+http://overtrue.me/share.js/
+https://blog.csdn.net/weixin_43856422/article/details/100564537

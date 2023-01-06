@@ -37,6 +37,12 @@ github:
 twitter:
   username: twitter_username            # change to your twitter username
 
+zhihu:
+  pid: 'pan-jia-wei-92-9'                # 个人主页的最后id
+
+qq:
+  sharelink: 'https://qm.qq.com/cgi-bin/qm/qr?k=CI9ZIrugkVfAIse8dRMuGifrL1BO04q_'     # qq 个人名片的网页链接地址
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer

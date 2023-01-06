@@ -132,6 +132,9 @@ h1 + .post-meta {
         &.fa-weibo {
           @include btn-sharing-color(rgb(229, 20, 43));
         }
+        &.fa-qq {
+          @include btn-sharing-color(rgb(32, 174, 251));
+        }
       }
     } /* .share-icons */
 
