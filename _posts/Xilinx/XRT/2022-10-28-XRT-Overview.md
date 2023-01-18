@@ -1,9 +1,10 @@
 ---
-title: 'XRT-Overview'
+title: 'XRT Overview'
 date: 2022-10-28 09:52:40 +0800
 categories: [Xilinx, XRT]
 tags: [xilinx, xrt]     # TAG names should always be lowercase
 published: true
+img_path: /assets/img/postimgs/Xilinx/XRT/
 ---
 
 参考自xilinx官方的XRT文档：https://xilinx.github.io/XRT/master/html/
@@ -15,7 +16,7 @@ published: true
 * 可以当做x86加速卡使用（PCI设备），也可以用于嵌入式环境（ARM linux嵌入式环境）。这两种情况主要使用的Linux kernel driver模块不同。（因为x86的PCI驱动和ARM的设备树驱动用法有较大差异）。
 * 对于上层应用开发，则提供了统一的 user APIs，(头文件 xrt.h )
 
-![XRT Software Stack](./pics/XRT-Layers.svg)
+![XRT Software Stack](XRT-Layers.svg)
 
 
 # Introduction
@@ -35,19 +36,19 @@ Git仓库 : https://github.com/Xilinx/XRT
 
 Alveo PCIe stack:
 
-![Alveo PCIe stack](./pics/XRT-Architecture-PCIe.svg)
+![Alveo PCIe stack](XRT-Architecture-PCIe.svg)
 
 XRT supports following PCIe based devices:
 
-U200
-U250
-U280
-U50
-AWS F1
-U30
-U25
-VCK5000
-Advantech VEGA-4000/4002
+* U200
+* U250
+* U280
+* U50
+* AWS F1
+* U30
+* U25
+* VCK5000
+* Advantech VEGA-4000/4002
 
 The platform is comprised of physical partitions called **Shell and User**. The Shell has two physical functions: **privileged PF0 also called mgmt pf and non-privileged PF1 also called user pf**. *Shell provides basic infrastructure for the Alveo platform. User partition (otherwise known as PR-Region) contains user compiled binary.* XRT uses Dynamic Function Exchange (DFX) to load user compiled binary to the User partition.
 
@@ -91,7 +92,7 @@ Note:Section [Security of Alveo Platform](https://xilinx.github.io/XRT/master/ht
 
 ### PCIe Based Hybrid Platforms
 
-![Alveo PCIe hybrid stack](./pics/XRT-Architecture-Hybrid.svg)
+![Alveo PCIe hybrid stack](XRT-Architecture-Hybrid.svg)
 
 Alveo PCIe hybrid stack
 
@@ -105,11 +106,11 @@ U30 and VCK5000 are MPSoC and Versal platforms respectively are considered hybri
 
 这里描述XRT的嵌入式平台环境，ARM做主控CPU的结构图。
 
-![MPSoC Embedded stack](./pics/XRT-Architecture-Edge.svg)
+![MPSoC Embedded stack](XRT-Architecture-Edge.svg)
 
 MPSoC Embedded stack
 
-![Versal ACAP Embedded stack](./pics/XRT-Architecture-Versal-Edge.svg)
+![Versal ACAP Embedded stack](XRT-Architecture-Versal-Edge.svg)
 
 Versal ACAP Embedded stack
 

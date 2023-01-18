@@ -1,18 +1,21 @@
 ---
-title: 'System Requirements'
+title: 'XRT System Requirements'
 date: 2022-10-28 16:10:10 +0800
 categories: [Xilinx, XRT]
 tags: [xilinx, xrt]     # TAG names should always be lowercase
 published: true
+img_path: /assets/img/postimgs/Xilinx/XRT/
 ---
 
 
-# System Requirements¶
+# System Requirements
 
-Host Platform for PCIe Accelerator Cards¶
-x86_64
-AARCH64
-PPC64LE
+Host Platform for PCIe Accelerator Cards
+
+* x86_64
+* AARCH64
+* PPC64LE
+
 Supported Xilinx® Accelerator Cards are listed in [XRT and Vitis™ Platform Overview](https://xilinx.github.io/XRT/master/html/platforms.html) .
 
 # XRT Software Stack for PCIe Accelerator Cards
@@ -21,8 +24,7 @@ XRT software stack requires Linux kernel 3.10+.
 
 The XRT software stack is tested on RHEL/CentOS and Ubuntu. For the detailed list of supported OS, please refer to the specific release versions of [UG1451 XRT Release Notes](https://www.xilinx.com/support/documentation-navigation/see-all-versions.html?xlnxproducttypes=Design%20Tools&xlnxdocumentid=UG1451).
 
-XRT is needed on both application development and deployment environments.
-
+XRT is needed on both application development and deployment environments
 To install XRT on the host, please refer to page [XRT Installation](https://xilinx.github.io/XRT/master/html/install.html). for dependencies installation steps and XRT installation steps.
 
 To build a custom XRT package, please refer to page [Building the XRT Software Stack](https://xilinx.github.io/XRT/master/html/build.html). for dependencies installation steps and building steps.
