@@ -13,9 +13,11 @@
 -
   type: qq
   icon: 'fab fa-qq'
--
-  type: zhihu
-  icon: 'fab fa-zhihu'
+  
+# -
+#   type: zhihu
+#   icon: 'fab fa-zhihu'
+
 -
   type: email
   icon: 'fas fa-envelope'

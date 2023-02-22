@@ -42,6 +42,13 @@ sync commit to release 5.4.0
 修改了 `light-scheme`的 sidebar 背景颜色 `--sidebar-bg` -> `#71ff4347` .
 添加较多posts
 
+# 23-02-09
+补充了PCIe 文章内容，添加文章（cron at systemd.timer）
+修改_config.yml 中的title 和 tagline 
+
+# 23-02-22
+添加文章，linux 运维 at，cron，systemd 计时器，脚本工具示例，ssh相关配置
+修改了tagline，取消了sidebar的知乎链接
 
 -------------------
 
@@ -52,3 +59,29 @@ sync commit to release 5.4.0
 for 播客，音频播放  http://jekyllthemes.org/themes/jekyll-podcaster/
 个人简历的              http://jekyllthemes.org/themes/neumorphism/
 还有其他图文风格的，不是很适合知识记录分享，但适合个人生活记录，也可以在http://jekyllthemes.org/ 上找
+
+
+
+
+--------------------
+
+后续考虑 学习记录的
+
+（1）加入 《程序员的自我修养》书籍笔记，docx  to   markdown   posts
+
+
+（2）systemd 系统管理守护进程
+参考：<https://0pointer.net/blog/archives.html> 的系列文章，已存储百度网盘
+
+* [Rethinking PID 1](http://0pointer.de/blog/projects/systemd.html)
+* [systemd for Administrators, Part I](http://0pointer.de/blog/projects/systemd-for-admins-1.html)
+* [systemd for Administrators, Part II](http://0pointer.de/blog/projects/systemd-for-admins-2.html)
+* [systemd for Administrators, Part III](http://0pointer.de/blog/projects/systemd-for-admins-3.html)
+* [systemd for Administrators, Part IV](http://0pointer.de/blog/projects/systemd-for-admins-4.html)
+* [systemd for Administrators, Part V](http://0pointer.de/blog/projects/three-levels-of-off.html)
+* [systemd for Administrators, Part VI](http://0pointer.de/blog/projects/changing-roots)
+* [systemd for Administrators, Part VII](http://0pointer.de/blog/projects/blame-game.html)
+* [systemd for Administrators, Part VIII](http://0pointer.de/blog/projects/the-new-configuration-files.html)
+* [systemd for Administrators, Part IX](http://0pointer.de/blog/projects/on-etc-sysinit.html)
+* [systemd for Administrators, Part X](http://0pointer.de/blog/projects/instances.html)
+* [systemd for Administrators, Part XI](http://0pointer.de/blog/projects/inetd.html)

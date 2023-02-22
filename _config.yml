@@ -19,11 +19,11 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 'little Joy的记录'
+title: 'little Joy Personal'
 
 sidebar_title: 'little Joy'         # the title in the sidebar (uses title if left blank)
 
-tagline: 'Joys Notes Recording'
+tagline: '看不完的书诶，记不完的录，走走停停，停停走走'
 
 description: >-                        # used by seo meta and the atom feed
   Joy's records for developments , about ...
@@ -37,8 +37,8 @@ github:
 twitter:
   username: twitter_username            # change to your twitter username
 
-zhihu:
-  pid: 'pan-jia-wei-92-9'                # 个人主页的最后id
+# zhihu:
+#   pid: 'pan-jia-wei-92-9'                # 个人主页的最后id
 
 qq:
   sharelink: 'https://qm.qq.com/cgi-bin/qm/qr?k=CI9ZIrugkVfAIse8dRMuGifrL1BO04q_'     # qq 个人名片的网页链接地址

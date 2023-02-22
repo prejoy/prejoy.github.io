@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> todo:update 《APUE》 《编译链接与库》，MISC。。。
 {: .prompt-tip }

@@ -1,0 +1,11 @@
+_data
+_drafts
+_posts
+_tabs
+assets
+ps_common
+_config.yml
+.gitignore
+README.md
+rsync_files.txt
+rsync.sh
