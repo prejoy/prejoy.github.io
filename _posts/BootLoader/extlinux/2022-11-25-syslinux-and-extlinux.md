@@ -1,7 +1,7 @@
 ---
 title: 'syslinux and extlinux'
 date: 2022-11-25 15:58:46 +0800
-categories: [BootLoader]
+categories: [BootLoader,extlinux]
 tags: [extlinux]
 published: true
 ---

@@ -60,7 +60,8 @@ for 播客，音频播放  http://jekyllthemes.org/themes/jekyll-podcaster/
 个人简历的              http://jekyllthemes.org/themes/neumorphism/
 还有其他图文风格的，不是很适合知识记录分享，但适合个人生活记录，也可以在http://jekyllthemes.org/ 上找
 
-
+-------------------
+sync to  腾讯云开发者社区
 
 
 --------------------
@@ -85,3 +86,10 @@ for 播客，音频播放  http://jekyllthemes.org/themes/jekyll-podcaster/
 * [systemd for Administrators, Part IX](http://0pointer.de/blog/projects/on-etc-sysinit.html)
 * [systemd for Administrators, Part X](http://0pointer.de/blog/projects/instances.html)
 * [systemd for Administrators, Part XI](http://0pointer.de/blog/projects/inetd.html)
+
+（opt）bootchart and systemd-analyze plot > plot.svg  启动性能分析
+
+
+(3) linux IPC之 dbus技术
+
+（4） linux 容器基础 ， linux namespace技术， LXC/LXD 容器技术，docker 容器技术
