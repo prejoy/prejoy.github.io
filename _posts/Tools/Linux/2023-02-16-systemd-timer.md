@@ -1,6 +1,6 @@
 ---
 title: '计划任务 systemd-timer 实现'
-date: 2022-02-16 09:42:33 +0800
+date: 2023-02-16 09:42:33 +0800
 categories: [Tools, Linux]
 tags: [systemd, timer, cron, at, 运维]
 published: true
