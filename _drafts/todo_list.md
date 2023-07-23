@@ -56,6 +56,10 @@ sync commit to release 5.4.0
 # # 23-05-23
 添加一些posts，主要是关于驱动基础，qemu相关使用，和一些零散的记录。
 
+# 23-07-23
+修改了原有的jsdelivr网站地址，改用其他国内可访问的cdn镜像。
+添加文章，主要包含 redis，内核内存管理使用，内核同步和互斥机制，和一些零散的记录
+
 -------------------
 
 可以学习的实例化功能： http://jekyllthemes.org/themes/wu-kan/
